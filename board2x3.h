@@ -66,7 +66,7 @@ private:
 				right = 0;
 				return fib_value[left];
 			} else if( left == right - 1) {
-				left += 1;
+				left += 2;
 				right = 0;
 				return fib_value[left];
 			}
